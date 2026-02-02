@@ -9,19 +9,11 @@ export const Background: React.FC = () => {
         - Responsive sizing using vmin.
         - Spans the entire page without fading (vignette removed).
       */}
-<<<<<<< HEAD
       <div
         className="absolute h-full w-full"
         style={{
           backgroundImage: 'radial-gradient(rgba(0, 0, 0, 0.15) 1.5px, transparent 1.5px)',
           backgroundSize: '60px 60px', // Approx 1cm spacing
-=======
-      <div 
-        className="absolute h-full w-full" 
-        style={{
-          backgroundImage: 'radial-gradient(rgba(0, 0, 0, 0.1) 2px, transparent 2px)',
-          backgroundSize: '3.5vmin 3.5vmin', // Adjusts with screen size
->>>>>>> ac3db022d28e3c06288752d25db03abac0852268
           backgroundPosition: 'center'
         }}
       />
